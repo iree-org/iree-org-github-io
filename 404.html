@@ -166,11 +166,15 @@ limitations under the License.
       };
 
       var repoRegex = new RegExp('^/([^/]+)(/|$)');
-      var match = repoRegex.exec(location.pathname);
+      var match = repoRegex.exec(window.location.pathname);
       if (match) {
         var newOrg = movedRepos[match[1]];
+        // Note that search index crawlers *will* respect this redirect and
+        // treat it as equivalent to an HTTP 301: Moved Permanently and update
+        // the URL in their index. See
+        // https://searchengineland.com/tested-googlebot-crawls-javascript-heres-learned-220157
         if (newOrg) {
-          location.host = newOrg + '.github.io';
+          window.location.host = newOrg + '.github.io';
         }
       }
 
