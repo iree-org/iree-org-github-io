@@ -162,7 +162,10 @@ limitations under the License.
       var movedRepos = {
         // A temporary redirect to test this prior to migration
         'test-repository': 'openxla',
-        'iree': 'openxla',
+
+        // 2023-02: Moved 'iree' repo from 'iree-org' to 'openxla', redirect
+        // 2024-04: Moved 'iree' repo back from 'openxla' to 'iree-org', no redirect
+        // 'iree': 'openxla',
       };
 
       var repoRegex = new RegExp('^/([^/]+)(/|$)');
