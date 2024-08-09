@@ -3,32 +3,17 @@
 We don't expect that this repo will have active contribution, but we're
 still happy to accept patches.
 
-## Before you begin
+To get started with contributing, please take a look at the
+[Contributing](https://iree.dev/developers/general/contributing/) guide.
 
-### Sign our Contributor License Agreement
+## Getting in touch
 
-Contributions to this project must be accompanied by a
-[Contributor License Agreement](https://cla.developers.google.com/about) (CLA).
-You (or your employer) retain the copyright to your contribution; this simply
-gives us permission to use and redistribute your contributions as part of the
-project.
+*   [IREE Discord server](https://discord.gg/wEWh6Z9nMU): Daily development
+    discussions with the core team and collaborators
+*   [iree-discuss email list](https://groups.google.com/forum/#!forum/iree-discuss):
+    Announcements, general and low-priority discussion
 
-If you or your current employer have already signed the Google CLA (even if it
-was for a different project), you probably don't need to do it again.
+## Community guidelines
 
-Visit <https://cla.developers.google.com/> to see your current agreements or to
-sign a new one.
-
-### Review our Community Guidelines
-
-This project follows [Google's Open Source Community
-Guidelines](https://opensource.google/conduct/).
-
-## Contribution process
-
-### Code Reviews
-
-All submissions, including submissions by project members, require review. We
-use GitHub pull requests for this purpose. Consult
-[GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
-information on using pull requests.
+This project follows the
+[LF Projects code of conduct](https://lfprojects.org/policies/code-of-conduct/).
